@@ -1,13 +1,13 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "google",
+    "provider": "gemini",
     "model": "gemini-2.0-flash",
     "base_url": "https://api.deepseek.com",
     "api_key_env": "GEMINI_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
-    "languages": "en",
+    "languages": ["en"],
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
   },
