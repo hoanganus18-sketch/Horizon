@@ -39,7 +39,7 @@
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 30,
-      "min_score": 150
+      "min_score": 1
     },
     "rss": [
       {
@@ -70,7 +70,7 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 15,
-          "min_score": 60
+          "min_score": 1
         },
         {
           "subreddit": "LocalLLaMA",
@@ -78,7 +78,7 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 15,
-          "min_score": 60
+          "min_score": 1
         }
       ],
       "users": [],
